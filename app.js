@@ -55,7 +55,7 @@ app.use((error, req, res, next) => {
 
 })
 
-mongoose.connect('mongodb://nisarh039:2GzAw43CL4Gxlk1n@ac-yu89zur-shard-00-00.2kuqfqr.mongodb.net:27017,ac-yu89zur-shard-00-01.2kuqfqr.mongodb.net:27017,ac-yu89zur-shard-00-02.2kuqfqr.mongodb.net:27017/messages?replicaSet=atlas-48caiw-shard-0&ssl=true&authSource=admin')
+mongoose.connect('connection string')
     .then(result => {
         app.listen(8080);
     }).catch(err => {
