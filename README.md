@@ -5,3 +5,9 @@ express js rest api for blog posts
 ## /auth/signup
 ### Headers:
 Content-Type: application/json
+### Body:
+{
+    "email":"Your email",
+    "password": "Your Password",
+    "name": "Your full name"
+}
